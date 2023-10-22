@@ -2,11 +2,11 @@
 
 ## Header
 
-![Header](/Header.png)
+![Header](./Header.png)
 
 ## Header after change
 
-![Header](/Web_technology/Home_Work_1/Header_after.png)
+![Header](/Home_Work_1/Header_after.png)
 
 ## Content
 
