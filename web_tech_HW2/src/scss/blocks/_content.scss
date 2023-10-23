@@ -1,0 +1,35 @@
+.content-section__container {
+  background-color: rgb(32, 29, 27);
+}
+
+.content-section__container h1 {
+  font-size: 4rem;
+  color:rgb(156, 160, 100);
+  text-align: center;
+  font-weight: 500;
+}
+
+.content-section__descr p {
+  color:rgb(156, 160, 100);
+  font-size: 1.4rem;
+  padding: 1rem 2rem 1rem 2rem;
+  
+}
+
+.content-section__book {
+  margin: 0 auto;
+  display: block;
+}
+
+.content-section__quote {
+  padding-left: 2rem;
+  color:rgb(156, 160, 100);
+  h2 {
+    font-size: 2rem;
+    text-decoration: underline;
+  }
+  li {
+    font-size: 1.4rem;
+  }
+  
+}
