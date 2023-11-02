@@ -10,9 +10,9 @@ function askName() {
 
   let message = document.getElementById("message").value;
 
-  let user = `${name}: ${message}`;
+  let userMessage = `${name}: ${message}`;
 
-  document.getElementById("result").innerText = user;
+  document.getElementById("result").innerText = userMessage;
   document.getElementById("message").value = "";
 }
 
