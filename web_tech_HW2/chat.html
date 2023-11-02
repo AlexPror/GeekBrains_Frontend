@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Чат</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <script src="./js/app.js" defer></script> -->
+    <script src="./js/calc.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>Чат</header>
+      <nav>
+        <a href="index.html">Главная</a>
+        <a href="chat.html">Чат</a>
+      </nav>
+      <main>
+        <h1>Чат</h1>
+        <input type="text" placeholder="Введите имя" id="name" />
+        <input type="text" placeholder="Введите сообщение" id="message" />
+        <button onclick="askName()" class="calc__btn-math">Ввод</button>
+        <div class="message_box">
+          <p id="result"></p>
+          <p id="error"></p>
+        </div>
+
+        <input type="text" placeholder="Введите первое число" id="firstNum" />
+        <input type="text" placeholder="Введите второе число" id="secondNum" />
+        <input type="text" placeholder="Результат" id="resNum" />
+        <div class="calc__btn">
+          <button onclick="calc('+')" class="calc__btn-math">+</button>
+          <button onclick="calc('-')" class="calc__btn-math">-</button>
+          <button onclick="calc('/')" class="calc__btn-math">/</button>
+          <button onclick="calc('*')" class="calc__btn-math">*</button>
+        </div>
+      </main>
+      <footer>©2023</footer>
+    </div>
+  </body>
+</html>

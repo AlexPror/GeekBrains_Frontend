@@ -1,0 +1,91 @@
+body {
+    background-color: silver;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    color: red;
+    background: orange;
+    padding: 5px;
+    text-align: center;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: bisque;
+    padding: 5px 0;
+}
+
+nav a {
+    padding: 5px;
+    transition: 1s;
+}
+
+nav a:hover {
+    background-color: blue;
+    color: white;
+}
+
+main {
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+input {
+    margin-top: 10px;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    gap:10px;
+
+}
+.calc__btn {
+    display: flex;
+    justify-content: center;
+    gap:10px;
+
+}
+
+.calc__btn-math {
+    height: 30px;
+    width: auto;
+    line-height: 50%;
+    padding: 10px;
+    color:aliceblue;
+    font-size: 16px;
+    background: blueviolet;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+footer {
+    color: black;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+}
+
+main div {
+    display: flex;
+}
+
+main p {
+    margin-top: 0;
+}
+
+#error {
+    color: red;
+}
