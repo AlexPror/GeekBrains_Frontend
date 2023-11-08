@@ -2,9 +2,9 @@
 
 function askName() {
   let name = document.getElementById("name").value;
-
+  const errorName = "Ошибка. Введите имя";
   if (name == "") {
-    document.getElementById("error").innerText = "Ошибка. Введите имя";
+    document.getElementById("error").innerText = errorName;
     return;
   }
 
