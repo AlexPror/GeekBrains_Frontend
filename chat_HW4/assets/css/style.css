@@ -1,24 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: silver;
 }
 
 .container {
-    width: 600px;
     margin: 0 auto;
+    width: 600px;
 }
 
 header,
 footer {
-    color: red;
     background: orange;
+    color: red;
+    font-size: 24px;
     padding: 5px;
     text-align: center;
-    font-size: 24px;
 }
 
 a {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
 nav {
@@ -60,4 +64,15 @@ main p {
 
 #error {
     color: red;
+}
+
+/* Forms */
+.form-control {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
 }

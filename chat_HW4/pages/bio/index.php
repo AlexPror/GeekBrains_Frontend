@@ -111,21 +111,19 @@ All I need to know in one place'], ['place'=>'London Business School',
                   >Навыки</b
                 >
               </p>
-              <?php foreach ($skills as $key =>
-              $skill): ?>
-              <p><?=$skill['name']?></p>
-              <div class="w3-light-grey w3-round-xlarge w3-small">
-                <div
-                  class="w3-container w3-center w3-round-xlarge w3-teal"
-                  style="width:<?=$skill[ 'value']?>%"
-                >
-                  <?=$skill['value']?>%
+              <?php foreach ($skills as $key => $skill): ?>
+                <p><?=$skill['name']?></p>
+                <div class="w3-light-grey w3-round-xlarge w3-small">
+                  <div
+                    class="w3-container w3-center w3-round-xlarge w3-teal"
+                    style="width:<?=$skill[ 'value']?>%"
+                  >
+                    <?=$skill['value']?>%
+                  </div>
                 </div>
-              </div>
-
               <?php endforeach; ?>
 
-              <br />
+              <br>
 
               <p class="w3-large w3-text-theme">
                 <b
